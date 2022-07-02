@@ -8,16 +8,17 @@ namespace psiz_p_zd5.DTO
 {
     public class PictureInfo
     {
-        public int Size { get; set; }
-        public int Width { get; set; }
-        public int Height { get; set; }
-        public int Planes { get; set; }
-        public int BitCount { get; set; }
-        public int Compression { get; set; }
-        public int ImageSize { get; set; }
-        public int HorizontalResolution { get; set; }
-        public int VerticalResolution { get; set; }
-        public int UsedColors { get; set; }
-        public int ImportantColors { get; set; }
+        public uint Size { get; set; }
+        public uint Width { get; set; }
+        public uint Height { get; set; }
+        public ushort Planes { get; set; }
+        public ushort BitCount { get; set; }
+        public uint Compression { get; set; }
+        public uint ImageSize { get; set; }
+        public uint HorizontalResolution { get; set; }
+        public uint VerticalResolution { get; set; }
+        public uint UsedColors { get; set; }
+        public byte ImportantColors { get; set; }
+        public byte Rotation { get; set; }
     }
 }
