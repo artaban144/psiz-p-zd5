@@ -1,8 +1,8 @@
 ﻿namespace psiz_p_zd5.DTO
 {
-    public class File
+    public class BitmapFileInfo
     {
-        public File()
+        public BitmapFileInfo()
         {
             FileInfo = new FileInfo();
             PictureInfo = new PictureInfo();
