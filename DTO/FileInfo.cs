@@ -8,7 +8,7 @@ namespace psiz_p_zd5.DTO
 {
     public class FileInfo
     {
-        public char[] Type { get; set; }
+        public string? Type { get; set; }
         public uint Size { get; set; }
         public ushort ReservedOne { get; set; }
         public ushort ReservedTwo { get; set; }

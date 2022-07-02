@@ -14,7 +14,7 @@ namespace psiz_p_zd5
             binaryReader.BaseStream.Seek(0, SeekOrigin.Begin);
             FileInfo fileInfo = new FileInfo();
 
-            fileInfo.Type = binaryReader.ReadChars(2);
+            fileInfo.Type = new string(binaryReader.ReadChars(2));
             fileInfo.Size = binaryReader.ReadUInt32();
             fileInfo.ReservedOne = binaryReader.ReadUInt16();
             fileInfo.ReservedTwo = binaryReader.ReadUInt16();
