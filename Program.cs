@@ -20,6 +20,7 @@ namespace psiz_p_zd5
                 );
 
             BitmapInfoConsolePrinter.Print(bitmapFileInfo);
+            NegativeImageRenderer.Render(fileName, "negative.bmp");
         }
     }
 }
