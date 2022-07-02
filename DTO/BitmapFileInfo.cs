@@ -2,15 +2,15 @@
 {
     public class BitmapFileInfo
     {
-        public BitmapFileInfo()
+        public BitmapFileInfo(FileInfo fileInfo, PictureInfo pictureInfo, ColorsInfo colorsInfo)
         {
-            FileInfo = new FileInfo();
-            PictureInfo = new PictureInfo();
-            ColorsInfo = new ColorsInfo();
+            FileInfo = fileInfo;
+            PictureInfo = pictureInfo;
+            ColorsInfo = colorsInfo;
         }
 
-        public FileInfo FileInfo { get; set; }
-        public PictureInfo PictureInfo { get; set; }
-        public ColorsInfo ColorsInfo { get; set; }
+        public FileInfo FileInfo { get; }
+        public PictureInfo PictureInfo { get; }
+        public ColorsInfo ColorsInfo { get; }
     }
 }
